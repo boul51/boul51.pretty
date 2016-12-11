@@ -16,7 +16,7 @@
   (fp_line (start -4.445 0) (end -2.54 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole rect (at -5.08 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 5.08 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${KIUSERMOD}/nboul.3dshapes/Diode-DO41.wrl
+  (model ${KIUSERMOD}/boul51.3dshapes/Diode-DO41.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
