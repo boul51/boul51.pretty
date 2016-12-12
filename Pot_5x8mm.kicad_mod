@@ -1,8 +1,8 @@
-(module Pot_5x8mm (layer F.Cu) (tedit 584D2AED)
-  (fp_text reference REF** (at 0 5.842) (layer F.SilkS)
+(module Pot_5x8mm (layer F.Cu) (tedit 584D32A0)
+  (fp_text reference RV2 (at 0 5.842) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value varres_5x8mm (at 0 -4.572) (layer F.Fab) hide
+  (fp_text value 47k (at 0 -4.572) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.254 -0.508) (end -0.254 -1.27) (layer F.SilkS) (width 0.15))
@@ -27,8 +27,8 @@
   (fp_line (start 1.905 -3.175) (end 3.175 -1.905) (layer F.SilkS) (width 0.15))
   (fp_line (start 3.175 4.445) (end -3.175 4.445) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -2.54 2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 2.54 2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at 0 -2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 -2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 2.54 2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (model ${KIUSERMOD}/boul51.3dshapes/Pot_5x8mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
